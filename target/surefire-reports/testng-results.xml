@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-01T12:20:44 IST" name="Suite" finished-at="2022-07-01T12:21:26 IST" duration-ms="42116">
+  <suite started-at="2022-07-01T20:30:22 IST" name="Suite" finished-at="2022-07-01T20:31:20 IST" duration-ms="58375">
     <groups>
     </groups>
-    <test started-at="2022-07-01T12:20:44 IST" name="Test" finished-at="2022-07-01T12:21:26 IST" duration-ms="42116">
+    <test started-at="2022-07-01T20:30:22 IST" name="Test" finished-at="2022-07-01T20:31:20 IST" duration-ms="58375">
       <class name="testcases.VerifyAdminLogin">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.VerifyAdminLogin@5b1669c0]" started-at="2022-07-01T12:20:44 IST" name="launchBrowser" finished-at="2022-07-01T12:21:15 IST" duration-ms="30421" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.VerifyAdminLogin@11392934]" started-at="2022-07-01T20:30:22 IST" name="launchBrowser" finished-at="2022-07-01T20:31:07 IST" duration-ms="44274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyAdminLogin()[pri:0, instance:testcases.VerifyAdminLogin@5b1669c0]" started-at="2022-07-01T12:21:15 IST" name="verifyAdminLogin" finished-at="2022-07-01T12:21:25 IST" duration-ms="10579" status="PASS">
+        <test-method signature="verifyAdminLogin()[pri:0, instance:testcases.VerifyAdminLogin@11392934]" started-at="2022-07-01T20:31:07 IST" name="verifyAdminLogin" finished-at="2022-07-01T20:31:14 IST" duration-ms="7901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.VerifyAdminLogin@5b1669c0]" started-at="2022-07-01T12:21:25 IST" name="closeBrowser" finished-at="2022-07-01T12:21:26 IST" duration-ms="949" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.VerifyAdminLogin@11392934]" started-at="2022-07-01T20:31:14 IST" name="closeBrowser" finished-at="2022-07-01T20:31:20 IST" duration-ms="6008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

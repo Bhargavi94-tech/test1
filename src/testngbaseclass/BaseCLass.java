@@ -11,7 +11,7 @@ public class BaseCLass {
 	
 	@BeforeMethod
 	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver", "F:\\gitcheck\\test1\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\SeleniumGitDownload\\test1\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get(URL);
 		

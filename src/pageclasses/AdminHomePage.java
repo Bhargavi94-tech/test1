@@ -35,6 +35,10 @@ public class AdminHomePage extends BaseCLass{
 		}
 		
 	}
+	public void changePassword() {
+		changepwd.click();
+		
+	}
 	
 	public AdminHomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
