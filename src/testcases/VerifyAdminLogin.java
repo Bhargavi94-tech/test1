@@ -24,22 +24,6 @@ public class VerifyAdminLogin extends BaseCLass {
 		boolean status=ah.verifyAdminHomePage();
 		Assert.assertTrue(status);		
 		ah.logout();
-		driver.switchTo().alert().accept();
-		}
-		catch(NoSuchFrameException nfe) {
-			nfe.getStackTrace();
-			System.out.println("Frame is not available to switch");
-			
-		}
-		catch(NoSuchElementException nee) {
-			nee.getStackTrace();
-			System.out.println("Frame is not available to switch");
-			
-		}
-		catch(NoSuchWindowException nee) {
-			nee.getStackTrace();
-			System.out.println("Frame is not available to switch");
-			
 		}
 		catch(Exception e) {
 			e.getStackTrace();

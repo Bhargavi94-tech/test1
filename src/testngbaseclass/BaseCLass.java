@@ -11,7 +11,7 @@ public class BaseCLass {
 	
 	@BeforeMethod
 	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver", "E:\\SeleniumDemo\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\gitcheck\\test1\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get(URL);
 		
@@ -19,7 +19,6 @@ public class BaseCLass {
 	@AfterMethod
 	public void closeBrowser() {
 		driver.close();
-		driver.findElement(null)
 
 	}
 
