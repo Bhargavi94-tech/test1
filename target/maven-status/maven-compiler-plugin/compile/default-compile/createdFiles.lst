@@ -1,0 +1,5 @@
+testdata\GetTestData.class
+testcases\VerifyAdminLogin.class
+testngbaseclass\BaseCLass.class
+pageclasses\LoginPage.class
+pageclasses\AdminHomePage.class
